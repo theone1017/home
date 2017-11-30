@@ -1,0 +1,40 @@
+.main{
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.main>a{
+  font-size: 32px;
+}
+.main>p{
+  color:#fff;
+}
+.main>input{
+  outline: none;
+  width: 60%;
+  line-height: 40px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-indent: 20px;
+}
+.main>input:nth-child(3){
+  border-bottom: 0;
+  margin-top: 100px;
+}
+
+.main>.login{
+  width: 60%;
+  line-height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 100px;
+  color:orange;
+  font-size: 16px;
+}
+
+.main>span{
+  color:#fff;
+  font-size: 14px;
+  margin-top: 20px;
+}
